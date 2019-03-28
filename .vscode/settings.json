@@ -1,0 +1,49 @@
+{
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "editor.rulers": [80, 120],
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.multiCursorModifier": "alt",
+  "editor.wordWrap": "on",
+  "editor.insertSpaces": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "files.encoding": "utf8",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "git.autofetch": true,
+  "sync.autoUpload": false,
+  "sync.gist": "183d16be3ab63cc2eac4a0d19cb4a5f0",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.renderLineHighlight": "gutter"
+}
